@@ -32,4 +32,6 @@
 .result {
   font-size: 50px;
   font-weight: bold;
+  height: 70px;
+  font-family: 'Times New Roman', Times, serif;
 }
