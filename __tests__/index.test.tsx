@@ -12,4 +12,8 @@ describe('Home', () => {
     expect(heading).toBeInTheDocument();
 
   });
-})
+describe('test convert logic', ()=> {
+  it.each(CONVERT_TEST_CASES)('converts %s to %s', (input, expectedOutput)=> {
+    expect(calculate(input)).toBe(expectedOutput);
+  });
+});
