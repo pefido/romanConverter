@@ -1,25 +1,25 @@
-# Next.js + Jest
+# Integer to Roman numeral converter
 
-This example shows how to configure Jest to work with Next.js.
+## Directory tour
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+Main react component -> pages/index.tsx
 
-## How to Use
+Conversion logic -> utils/index.ts
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+jest tests -> \_\_tests\_\_/index.test.tsx
 
-In your terminal, run the following command:
+mocks to be used in tests -> mocks/index.ts
 
+## Requirements
+[node.js](https://nodejs.org/en/)
+
+[npm](https://www.npmjs.com/)
+
+## Run the project
 ```bash
-npx create-next-app --example with-jest with-jest-app
-```
+npm install
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
-pnpm create next-app --example with-jest with-jest-app
+npm run dev
 ```
 
 ## Run Jest Tests
