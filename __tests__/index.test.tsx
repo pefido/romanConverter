@@ -1,5 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import Home from '@/pages/index'
+import { calculate } from '@/utils/index';
+import { CONVERT_TEST_CASES } from '@/mocks/index';
 
 describe('Home', () => {
   it('renders main page', ()=> {
